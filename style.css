@@ -1,0 +1,167 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Apply flex */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    min-height: 100vh;
+    /* background-color: aqua; */
+    background: rgb(86, 145, 224);
+    background: radial-gradient(circle,
+            rgba(86, 145, 224, 1) 17%,
+            rgba(0, 117, 255, 1) 73%);
+}
+
+/* Main Container */
+.wrapper {
+    width: 440px;
+    background: rgb(134, 223, 224);
+    background: linear-gradient(0deg,
+            rgba(134, 223, 224, 1) 20%,
+            rgba(79, 169, 231, 1) 74%);
+
+    padding: 2.5rem;
+    flex-direction: column;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 66px -30px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 66px -30px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 66px -30px rgba(0, 0, 0, 0.75);
+}
+
+/* Clock image */
+.wrapper img {
+    max-width: 100px;
+}
+
+/* Time text */
+.wrapper h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 2.5rem 0;
+}
+
+/* Main content */
+.wrapper .content {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+/* Hour Minute AM/PM section */
+.content .column {
+    border-radius: 5px;
+    border: 1px solid #999;
+    width: calc(100% / 3 - 5px);
+}
+
+.change-style {
+    width: 5em;
+    height: 2em;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.content .column select {
+    outline: none;
+    border: none;
+    height: 53px;
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 10px;
+    cursor: pointer;
+    background-color: rgb(218, 239, 244);
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* Set Button */
+.wrapper button{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    color: #fff;
+    background-color: rgb(174, 52, 52);
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow: 0 9px #999;
+}
+
+button:active {
+    background-color: rgb(218, 37, 37);;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+/* Set alarm display section */
+.set-alarm-container {
+    width: 100%;
+}
+
+/* Display section's items */
+.set-alarm-container .set-alarm-container-title {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.alarm {
+    justify-content: space-between;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    align-items: center;
+
+}
+
+/* delete alarm button */
+.alarm .delete-alarm {
+    width: 6em;
+    font-size: small;
+    border-radius: 2rem;
+    background-color: rgba(230, 13, 13, 0.918);
+    font-weight: bold;
+    color: wheat;
+    font-size: xx-medium;
+    margin-top: 0px;
+}
+
+.time {
+    color: #0E141B;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.alarm-select {
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.mb {
+    margin-bottom: 1rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 95vw;
+    }
+
+
+}

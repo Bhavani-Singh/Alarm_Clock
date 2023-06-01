@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head section -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <!--  Favicon    -->
+    <link rel="shortcut icon" href="files/alarm-clock.png" type="image/x-icon" />
+    <!--   CSS   -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<!-- body section -->
+<body class="flex">
+    <!-- Main container -->
+    <div class="wrapper flex">
+        <img src="files/clock.svg" alt="clock" />
+        <!-- Temporary time -->
+        <h1 class="currentTime" id="current-time">00:00:00</h1>
+        <!-- Main content -->
+        <div class="flex alarm-select mb" id="content">
+            <!-- Hour section -->
+            <div class="column">
+                <select class="change-style" id="hours" required></select>
+            </div>
+            <!-- Minute Section -->
+            <div class="column">
+                <select class="change-style" id="minutes" required></select>
+            </div>
+            <!-- Second Section -->
+            <div class="column">
+                <select class="change-style" id="seconds" required></select>
+            </div>
+            <!-- AM/PM section -->
+            <div class="column">
+                <select class="change-style" id="am-pm">
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+        </div>
+        <!-- Set alarm Button -->
+        <button id="submitButton">Set Alarm</button>
+
+
+        <!-- Alarm time indicator -->
+        <div class="set-alarm-container">
+            <div class="set-alarm-container-title mb" style="text-align: center;">ALARMS</div>
+            <div class="alarms-container" id="alarms-container"></div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
