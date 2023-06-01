@@ -6,20 +6,20 @@
 
 About the Project :-
 
-🔴 This project is an clocked based alarm project
-🔴 You can set alarm at any desired time.
-🔴 The most important thing about this project is it makes use of local storage of your browser that means if you accidentally close the tab or entire
-window, the alarm you set is not gone. When you revisit the page you find it same as you left
-🔴 It also remembers at what time did you set alarm last time
+🔴 This project is an clocked based alarm project.<br>
+🔴 You can set alarm at any desired time.<br>
+🔴 The most important thing about this project is it makes use of local storage of your browser that means if you accidentally close the tab or entire.<br>
+window, the alarm you set is not gone. When you revisit the page you find it same as you left.<br>
+🔴 It also remembers at what time did you set alarm last time.<br>
 
 ---
 
 🪛 Built With :-
 
-🟠 HTML: Used to structure the web page and define its elements.
-🟠 Pure CSS: Used for styling the web page and making it visually appealing.
-🟠 Vanilla Javascript: Used to add interactivity and functionality to the alarm clock.
-🟠 Google Fonts: Imported a font family called "Poppins" from Google Fonts to enhance the typography on the page.
+🟠 HTML: Used to structure the web page and define its elements.<br>
+🟠 Pure CSS: Used for styling the web page and making it visually appealing.<br>
+🟠 Vanilla Javascript: Used to add interactivity and functionality to the alarm clock.<br>
+🟠 Google Fonts: Imported a font family called "Poppins" from Google Fonts to enhance the typography on the page.<br>
 
 ---
 
